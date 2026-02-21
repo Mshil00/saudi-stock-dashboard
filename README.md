@@ -96,13 +96,9 @@ The layout prioritizes clarity, quick comparison, and executive-level insights.
 Several important insights were identified:
 
 - Al Rajhi Bank shows the strongest overall performance based on average price.
-
 - Aramco demonstrates relatively lower volatility, indicating more stable performance.
-
 - Higher average price does not always mean lower risk.
-
 - Some companies show stronger growth trends but also higher volatility.
-
 - This highlights the importance of evaluating both performance and risk together.
 
 
