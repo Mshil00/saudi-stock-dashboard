@@ -1,71 +1,128 @@
 # saudi-stock-dashboard
 # Saudi Stock Market Dashboard
 
-## Overview
-This project presents an interactive dashboard analyzing major Saudi stock market companies. The dashboard provides insights into stock performance, growth trends, and investment risk using data visualization. The goal is to help users evaluate investment opportunities by comparing companies based on performance, stability, and growth.
+## Overview Project Overview
+
+This project presents an interactive investment dashboard analyzing the performance, growth, and risk of major Saudi stock market companies. The objective is to help investors and stakeholders quickly evaluate investment quality, compare company performance, and understand price trends over time.
+
+The dashboard focuses on answering key investment questions:
+
+- Which companies show the strongest average performance?
+- Which companies have higher or lower risk (volatility)?
+- What is the historical price trend for each company?
+- Which companies offer more stable investment opportunities?
+
+By combining performance, growth, and risk metrics, the dashboard provides a clear and actionable overview to support investment decision-making.
+
+## Data Source
+
+The dataset contains historical stock price data for major Saudi companies, including:
+
+- Company name
+- Closing price
+- Date
+- Historical price records over multiple years
+
+From this raw data, additional metrics were calculated, including:
+
+- Average price (performance indicator)
+- Maximum price (peak performance)
+- Minimum price (worst price point)
+- Volatility (risk indicator)
+- Investment Quality Score (performance relative to risk)
 
 
-## Dashboard Link
-(https://lookerstudio.google.com/s/rmfceyHI0AQ)
+## Steps & Methodology
+
+The following steps were performed:
+
+## Data Preparation
+
+- Cleaned and formatted date fields to enable time-series analysis
+- Converted numeric fields to correct data types for calculations
+- Structured data for time-series visualization
+- Ensured consistency across all company records
+- Added company names to the dataset to enable company-level comparison and filtering
+
+## Calculated Metrics
+
+Custom calculated fields were created:
+
+- Average Price → investment performance indicator
+- Max Price → highest achieved value
+- Min Price → lowest price point (risk exposure)
+- Volatility → standard deviation of price (risk measurement)
+- Investment Quality Score → performance relative to volatility
+
+These metrics allow direct comparison between companies.
+
+## Tool Selection
+
+Looker Studio was used because it provides:
+- Interactive filtering
+- Real-time dashboard capabilities
+- Professional visualization components
+- Easy sharing via live dashboard links
+
+## Dashboard Design Decisions
+
+The dashboard was structured into key sections:
+
+- Top KPI Cards:
+
+  - Investment Quality Score
+  - Volatility
+  - 5-Year Growth
+  - Worst Price Point
+
+- Visual Analysis:
+
+  - Risk comparison across companies
+  - Price trend over time
+  - Company performance ranking
+
+- Summary Table:
+
+  - High Price
+  - Low Price
+  - Average Price
+  - Volatility
+
+The layout prioritizes clarity, quick comparison, and executive-level insights.
 
 
-## Top 5 Performing Companies
+## Key Insights
 
-Based on average price performance and investment quality analysis, the top 5 companies are:
+Several important insights were identified:
 
-1. Al Rajhi Bank — highest overall performance and strong investment quality  
-2. Saudi Aramco — highly stable with low volatility  
-3. STC (Saudi Telecom Company) — consistent and balanced growth  
-4. Saudi National Bank (SNB) — reliable and stable performance  
-5. Ma'aden — strong growth potential  
+- Al Rajhi Bank shows the strongest overall performance based on average price.
 
-These companies demonstrate strong performance and favorable investment characteristics.
+- Aramco demonstrates relatively lower volatility, indicating more stable performance.
+
+- Higher average price does not always mean lower risk.
+
+- Some companies show stronger growth trends but also higher volatility.
+
+- This highlights the importance of evaluating both performance and risk together.
 
 
+## Live Dashboard
 
-## Key Metrics
-
-**Average Price**  
-Represents the average closing price over the selected time period.
-
-**Highest Price**  
-The maximum recorded closing price.
-
-**Lowest Price**  
-The minimum recorded closing price.
-
-**Volatility (Risk)**  
-Calculated using standard deviation of closing prices:
-Volatility = STDDEV(Close)
-
-**Growth Rate**
-Growth Rate = (Max Price - Min Price) / Min Price
-
-**Investment Quality Score**
-Investment Quality Score = Average Price / Volatility
+View the interactive dashboard here:
+(https://lookerstudio.google.com/s/ryNBeEkPVkI)
 
 
 
-## Features
+## Assumptions & Limitations
 
-- Interactive company filter
-- Date range filter
-- Stock price trend analysis
-- Risk comparison across companies
-- Company ranking by performance
-- Investment quality indicator
+- Assumptions:
 
+  - Closing price was used as the primary performance indicator
+  - Volatility was calculated using standard deviation
+  - Historical price reflects investment performance trends
 
+- Limitations:
 
-## Tools Used
-
-- Google Looker Studio
-- GitHub
-- Spreadsheet data source
-
-
-
-## Purpose
-
-This dashboard demonstrates data analysis, financial metric evaluation, and interactive visualization skills relevant to fintech and investment analysis.
-
+  - External market factors were not included
+  - Dataset is limited to selected companies
+  - Future improvements could include more financial indicators and predictive analysis.
