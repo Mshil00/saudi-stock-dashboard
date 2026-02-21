@@ -1,7 +1,7 @@
 # saudi-stock-dashboard
 # Saudi Stock Market Dashboard
 
-## Overview Project Overview
+## Project Overview
 
 This project presents an interactive investment dashboard analyzing the performance, growth, and risk of major Saudi stock market companies. The objective is to help investors and stakeholders quickly evaluate investment quality, compare company performance, and understand price trends over time.
 
