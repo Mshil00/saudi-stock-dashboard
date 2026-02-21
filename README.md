@@ -37,7 +37,6 @@ The following steps were performed:
 
 - Cleaned and formatted date fields to enable time-series analysis
 - Converted numeric fields to correct data types for calculations
-- Structured data for time-series visualization
 - Ensured consistency across all company records
 - Added company names to the dataset to enable company-level comparison and filtering
 
