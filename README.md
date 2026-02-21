@@ -101,7 +101,8 @@ Several important insights were identified:
 View the interactive dashboard here:
 (https://lookerstudio.google.com/s/ryNBeEkPVkI)
 
-
+### Figma Design Preview
+![Figma Dashboard Design](Top 5 saudi stock dashboard.png)
 
 ## Assumptions & Limitations
 
