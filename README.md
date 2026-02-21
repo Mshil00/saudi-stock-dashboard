@@ -1,5 +1,4 @@
-# saudi-stock-dashboard
-# Saudi Stock Market Dashboard
+# Top 5 saudi stock dashboard
 
 ## Project Overview
 
