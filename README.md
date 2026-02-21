@@ -2,9 +2,7 @@
 
 ## Project Overview
 
-This project presents an interactive investment dashboard analyzing the performance, growth, and risk of major Saudi stock market companies. The objective is to help investors and stakeholders quickly evaluate investment quality, compare company performance, and understand price trends over time.
-
-The dashboard focuses on answering key investment questions:
+This project presents an interactive investment dashboard analyzing the performance, growth, and risk of major Saudi stock market companies. The objective is to help investors and stakeholders quickly evaluate investment quality, compare company performance, and understand price trends over time. The dashboard focuses on answering key investment questions:
 
 - Which companies show the strongest average performance?
 - Which companies have higher or lower risk (volatility)?
