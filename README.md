@@ -88,8 +88,6 @@ The dashboard was structured into key sections:
   - Average Price
   - Volatility
 
-The layout prioritizes clarity, quick comparison, and executive-level insights.
-
 
 ## Key Insights
 
