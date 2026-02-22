@@ -91,9 +91,11 @@ Several important insights were identified:
 
 - Al Rajhi Bank shows the strongest overall performance based on average price.
 - Aramco demonstrates relatively lower volatility, indicating more stable performance.
+- Ma’aden achieved the highest risk-adjusted performance during the selected period, indicating a strong balance between growth and volatility.
 - Higher average price does not always mean lower risk.
 - Some companies show stronger growth trends but also higher volatility.
 - This highlights the importance of evaluating both performance and risk together.
+
 
 
 ## Live Dashboard
